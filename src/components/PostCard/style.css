@@ -1,0 +1,15 @@
+.post{
+    background: linear-gradient(158deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 43%, rgba(0,212,255,1) 100%);
+    box-shadow: 0px 9px 24px -7px rgb(20, 108, 148);
+    padding: 30px;
+    transition: transform 100ms ease-in-out;
+}
+
+.post:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.post img{
+    max-width: 100%;
+}

@@ -1,3 +1,5 @@
+import './style.css'
+
 export const PostCard = (post) => { 
     return (
             <div className='post'>
@@ -5,6 +7,5 @@ export const PostCard = (post) => {
             <h2>{post.title}</h2>
             <p>{post.body}</p>
             </div>
-
     )
 }

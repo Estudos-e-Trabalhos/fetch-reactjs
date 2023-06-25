@@ -1,0 +1,8 @@
+.posts{
+    display: grid;
+    /* vai repetir issopara todos os elementos, para o tamanho minimo do elemento ele
+    ira ter 280 e caso ele não caiba usara o espaço disponivel na tela
+    */
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 30px;
+}
