@@ -2,7 +2,7 @@
   min-height: 100vh;
   background-color: #fff;
   margin: 0 auto;
-  color: #fff;
+  color: #a3dcf0;
   padding: 30px;
 }
 .button-container{
@@ -13,8 +13,11 @@
   justify-content: center;
 }
 
-
-
-
+.search-container{
+  margin-bottom: 30px;
+}
+.search-container h1{
+  margin-bottom: 30px;
+}
 
 
