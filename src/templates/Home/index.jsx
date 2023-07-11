@@ -76,6 +76,13 @@ export const Home = () => {
     return (
     <section className="container">
       <div className="search-container">
+      { /* 
+        !! - converte o valor após os sinais em booleanos 
+        string vazia - false
+        string com conteudo - true
+        após isso com os && pedidos para que ele verifique
+        se o valor for verdade E faça oq tiver dentro dos parenteses
+        */ }
         {!!searchValue && (
           <h1>Search Value: {searchValue}</h1>
         )}
@@ -90,6 +97,7 @@ export const Home = () => {
         <p>Nenhum post encontrado</p>
       )}
       <div className="button-container">
+        {/* ! - caso tenha buscas o botão ira sumir */}
         {!searchValue && (
           <Button
             text='Load more Posts'
